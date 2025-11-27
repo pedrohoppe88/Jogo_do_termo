@@ -55,11 +55,11 @@ def jogar():
         print(resultado + "\n")
 
         if chute == palavra_secreta:
-            print("🎉 PARABÉNS! Você acertou a palavra!")
+            print("PARABÉNS! Você acertou a palavra!")
             return  # encerra a função
 
     # se não acertou
-    print(f"❌ Você perdeu! A palavra era: {palavra_secreta}")
+    print(f"Você perdeu! A palavra era: {palavra_secreta}")
 
 # LOOP PARA JOGAR VÁRIAS VEZES
 while True:
