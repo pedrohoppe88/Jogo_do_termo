@@ -1,28 +1,20 @@
 import random
-# ================================
+
 # CORES ANSI
-# ================================
 VERDE = '\033[92m'
 AMARELO = '\033[93m'
 CINZA = '\033[90m'
 RESET = '\033[0m'
 
-# ================================
 # LISTA DE PALAVRAS
-# ================================
 palavras = ["canto", "verde", "lapis", "plano", "bravo"]
 
-
-# ================================
 # FUNÇÃO: SORTEAR PALAVRA
-# ================================
 def sortear_palavra():
     return random.choice(palavras)
 
-
-# ================================
 # FUNÇÃO: MOSTRAR RESULTADO COLORIDO
-# ================================
+
 def comparar_palavras(chute, palavra_secreta):
     resultado = ""
     for i in range(len(palavra_secreta)):
@@ -38,10 +30,8 @@ def comparar_palavras(chute, palavra_secreta):
 
     return resultado
 
-
-# ================================
 # FUNÇÃO PRINCIPAL DO JOGO
-# ================================
+
 def jogar():
     palavra_secreta = sortear_palavra()
     tamanho = len(palavra_secreta)
@@ -71,10 +61,7 @@ def jogar():
     # se não acertou
     print(f"❌ Você perdeu! A palavra era: {palavra_secreta}")
 
-
-# ================================
 # LOOP PARA JOGAR VÁRIAS VEZES
-# ================================
 while True:
     jogar()
 
