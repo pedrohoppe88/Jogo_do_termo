@@ -9,7 +9,7 @@ Amarelo → Letra existe na palavra, mas em outra posição
 
 Cinza → Letra não faz parte da palavra
 
-O projeto é ideal para iniciantes entenderem conceitos como funções, laços, condicionais e manipulação de strings.
+O projeto é ideal para entender conceitos como funções, laços, condicionais e manipulação de strings.
 
 📌 Funcionalidades Principais
 ✔️ Sorteio automático da palavra secreta
@@ -70,10 +70,10 @@ Python 3 instalado
 
 Passos
 # 1. Baixar o arquivo
-git clone https://github.com/SEU-USUARIO/jogo-termo.git
+git clone https://github.com/pedrohoppe88/Jogo_do_termo
 
 # 2. Acessar o diretório
-cd jogo-termo
+cd jogo_do_termo
 
 # 3. Executar o jogo
 python termo.py
